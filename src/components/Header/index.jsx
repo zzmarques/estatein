@@ -7,18 +7,18 @@ const Header = () => {
     return (
         <header className="bg-grey-10 w-full min-w-[390px]">
 
-            <div className="w-full h-[78px] pt-10 pb-5 px-4 bg-[url('assets/images/illustration/abstract-design.png')] bg-no-repeat bg-cover bg-bottom border-b border-grey-15">
+            <div className="w-full h-[78px] pt-10 pb-5 px-4 bg-[url('assets/images/illustration/abstract-design.png')] bg-no-repeat bg-cover bg-bottom border-b border-grey-15 lg:h-[49px] lg:py-3.5 lg:px-20 lg:bg-[url('assets/images/illustration/abstract-design-lap.png')] lg:bg-contain lg:bg-center 2xl:h-[63px] 2xl:px-40 py-[18px] 2xl:bg-[url('assets/images/illustration/abstract-design-desk.png')] 2xl:bg-cover 2xl:relative"> 
 
-                <div className="max-w-[390px] w-full flex items-center justify-between mx-auto">
+                <div className="max-w-[390px] w-full flex items-center justify-between mx-auto lg:max-w-[1440px] 2xl:max-w[1920px]">
                     
-                    <div className="flex items-center gap-1.5">
-                        <p className="font-urbanist text-[12px] font-medium text-white leading-relaxed">✨Discover Your Dream Property with Estatein</p>
+                    <div className="flex items-center gap-1.5 lg:mx-auto">
+                        <p className="font-urbanist text-[0.75rem] font-medium text-white leading-relaxed lg:text-[0.875rem] 2xl:text-[1.125rem]">✨Discover Your Dream Property with Estatein</p>
 
-                        <a href="#" className="font-urbanist text-[12px] font-medium text-white leading-relaxed underline">Learn More</a>
+                        <a href="#" className="font-urbanist text-[12px] font-medium text-white leading-relaxed underline lg:text-[0.875rem] 2xl:text-[1.125rem]">Learn More</a>
                     </div>
 
-                    <button className="flex items-center justify-center w-[26px] h-[26px] rounded-full px-1 py-1 bg-white/10 cursor-pointer">
-                        <img src={Close} alt="icon X" className="w-[9px] h-[9px]"  />
+                    <button className="flex items-center justify-center w-[26px] h-[26px] rounded-full px-1 py-1 bg-white/10 cursor-pointer 2xl:w-[32px] 2xl:h-[32px] 2xl:absolute 2xl:right-10">
+                        <img src={Close} alt="icon X" className="w-[9px] h-[9px] 2xl:w-[12px] 2xl:h-[12px]"  />
                     </button>
                 </div>
             </div>
