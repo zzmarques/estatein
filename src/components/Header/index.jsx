@@ -12,9 +12,9 @@ const Header = () => {
                 <div className="max-w-[390px] w-full flex items-center justify-between mx-auto lg:max-w-[1440px] 2xl:max-w[1920px]">
                     
                     <div className="flex items-center gap-1.5 lg:mx-auto">
-                        <p className="font-urbanist text-[0.75rem] font-medium text-white leading-relaxed lg:text-[0.875rem] 2xl:text-[1.125rem]">✨Discover Your Dream Property with Estatein</p>
+                        <p className="font-urbanist text-[0.75rem] font-medium text-white leading-[1.5] lg:text-[0.875rem] 2xl:text-[1.125rem]">✨Discover Your Dream Property with Estatein</p>
 
-                        <a href="#" className="font-urbanist text-[12px] font-medium text-white leading-relaxed underline lg:text-[0.875rem] 2xl:text-[1.125rem]">Learn More</a>
+                        <a href="#" className="font-urbanist text-[12px] font-medium text-white leading-[1.5] underline lg:text-[0.875rem] 2xl:text-[1.125rem]">Learn More</a>
                     </div>
 
                     <button className="flex items-center justify-center w-[26px] h-[26px] rounded-full px-1 py-1 bg-white/10 cursor-pointer 2xl:w-[32px] 2xl:h-[32px] 2xl:absolute 2xl:right-10">
