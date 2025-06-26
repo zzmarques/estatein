@@ -1,15 +1,15 @@
+import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import Header from "../../components/Header";
 import ImgIlus from "../../assets/images/illustration/ilustracao.png"
-import IconArrow from "../../assets/images/icons/arrow-outward.png"
 import TxtCicle from "../../assets/images/random/txt-circle.png"
 
 const Home = () => {
     return (
         <>
             <Header/>
-            <section className="max-w-[358px] h-dvh mx-auto relative">
+            <section className="max-w-[390px] h-dvh px-4 mt-10 mx-auto relative">
 
-                <div className="w-full h-[302px] rounded-xl border  border-grey-10 bg-url bg-[url('assets/images/illustration/hero-abstract.png')] bg-cotain bg-center">
+                <div className="max-w-[358px] w-full h-[302px] rounded-xl border  border-grey-10 bg-url bg-[url('assets/images/illustration/hero-abstract.png')] bg-cotain bg-center">
                     <img src={ImgIlus} alt="imagem ilustrativa" className="w-full h-full"/>
                 </div>
 
@@ -18,7 +18,7 @@ const Home = () => {
                         <div className="w-[117px] h-[117px] flex items-center justify-center relative bg-grey-08 rounded-full border-[1.08px] border-grey-15">
 
                             <div className="w-[53.18px] h-[53.18px] flex items-center justify-center rounded-full bg-grey-10 border border-grey-15">
-                                <img src={IconArrow} alt="Icon Arrow" className="w-[13.6px] h-[13.6px]"/>
+                                <ArrowUpRightIcon className="w-[21.77px] h-[21.77px] text-white lg:w-[24px] lg:h-[24px] 2xl:w-[34px] 2xl:h-[34px]" />
                             </div>
 
                             <img src={TxtCicle} alt="texto circular" className="w-[96.12px] h-[96.05px] absolute"/>
