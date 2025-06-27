@@ -11,7 +11,7 @@ const HeroSection = () => {
             <div className="max-w-[358px] h-[505px] relative">
 
                 <div className=" w-full h-[302px] rounded-xl border  border-grey-10 bg-url bg-[url('assets/images/illustration/hero-abstract.png')] bg-cotain bg-center">
-                    <img src={ImgIlus} alt="imagem ilustrativa" className="w-full h-full"/>
+                    <img src={ImgIlus} alt="imagem ilustrativa" className="w-full h-full rounded-xl"/>
                 </div>
 
                 <div className="flex flex-col gap-10 absolute top-[221px]">
