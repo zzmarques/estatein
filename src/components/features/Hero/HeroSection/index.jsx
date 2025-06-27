@@ -1,16 +1,18 @@
 import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 import ImgIlus from "../../../../assets/images/illustration/ilustracao.png";
 import TxtCicle from "../../../../assets/images/random/txt-circle.png";
+import Button from "../../../Button";
 
 const HeroSection = () => {
     return (
-        <section className="max-w-[390px] h-dvh px-4 mt-10 mx-auto relative">
+        <section className="max-w-[390px] h-[1251px] px-4 mt-10 mx-auto relative">
         
             <div className="max-w-[358px] w-full h-[302px] rounded-xl border  border-grey-10 bg-url bg-[url('assets/images/illustration/hero-abstract.png')] bg-cotain bg-center">
                 <img src={ImgIlus} alt="imagem ilustrativa" className="w-full h-full"/>
             </div>
 
-            <div className="absolute top-[221px]">
+            <div className="max-w-[358px] flex flex-col gap-10 absolute top-[221px]">
+
                 <div className="flex flex-col gap-4">
                     <div className="w-[117px] h-[117px] flex items-center justify-center relative bg-grey-08 rounded-full border-[1.08px] border-grey-15">
 
@@ -26,6 +28,16 @@ const HeroSection = () => {
                     <p className="font-urbanist font-medium text-[0.875rem] leading-[1.5] text-grey-60">
                         Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.
                     </p>
+                </div>
+
+
+                <div className="w-full h-[114px] flex flex-col gap-4">
+                    <Button >
+                        Learn More
+                    </Button>
+                    <Button version="sec">
+                        Browse Properties
+                    </Button>
                 </div>
             </div>
             
