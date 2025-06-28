@@ -67,7 +67,7 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className="max-w-[22.375rem] h-[19.875rem] flex flex-col gap-2.5 p-2.5 border border-grey-15 rounded-[0.75]">
+            <div className="max-w-[22.375rem] h-[19.875rem] flex flex-col gap-2.5 p-2.5 border border-grey-15 rounded-[0.75rem] shadow-[0_0_0_4px_#191919]">
                 <div className="flex gap-2.5">
                     <FeatureCard title="Find Your Dream Home">
                         <svg 
